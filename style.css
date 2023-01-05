@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background-color: lightgray;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+div {
+    background-color: white;
+    min-height: 400px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px;
+}
+
+button {
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+}

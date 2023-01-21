@@ -7,22 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/69f4c545df.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="container">
+        <div id="weather-container">
+            <div>
+                <h3>Today</h3>
+                <div id="weatherToday"></div>
+            </div>
+            <div>
+                <h3>Tomorrow</h3>
+                <div id="weatherTomorrow"></div>
+            </div>
+        </div>
         <div id="left-container">
             <div></div>
         </div>
         <div id="right-container">
             <div id="joke-container">
                 <p></p>
+                <div id="stars"><i id="star1" class="fa-solid fa-star"></i><i id="star2" class="fa-solid fa-star"></i><i id="star3" class="fa-solid fa-star"></i></div>
+
                 <button>Next joke</button>
             </div>
         </div>
     </div>
-    <script src="./build/index.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,87 @@
+#weather-container {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 40px 35px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+#weatherToday,
+#weatherNextDays>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+.day-title {
+    font-size: 20px;
+}
+
+#today-icon-and-temperature {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin: 15px 0;
+    gap: 35px;
+}
+
+.max-min {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.max-min>div {
+    display: flex;
+    gap: 5px;
+}
+
+.max-min img {
+    height: 35px;
+}
+
+.max-min-next img{
+    height: 30px;
+}
+
+.max-min-next div{
+    display: flex;
+    align-items: center;
+}
+
+#weatherNextDays {
+    display: none;
+}
+
+.next-days-icon-and-temperature {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 20px;
+}
+
+.next-days-icon-and-temperature>img {
+    height: 45px;
+}
+
+
+hr {
+    margin: 40px 0;
+    height: 3px;
+    background-color: black;
+}
+
+
+@media (max-width: 640px) {
+
+    #weather-container {
+        position: static;
+    }
+
+    #today-icon-and-temperature {
+        justify-content: space-evenly;
+    }
+}

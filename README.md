@@ -36,7 +36,7 @@ Follow these steps to set up and run the project on your local machine:
 <br>
 
 ## Code Examples
-```
+```typescript
 /**
  * Function that uses a fetch request to get a joke from one of two different APIs depending on the value of "genre", displays the joke in an HTML element, and stores it in an array along with its rating and date. It also calls the function "starsRating()".
  * @param genre If "genre" equals 1, it gets a joke from "icanhazdadjoke.com", and if it's different from 1, it gets a joke from "api.chucknorris.io".
